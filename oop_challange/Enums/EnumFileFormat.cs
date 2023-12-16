@@ -8,4 +8,3 @@ namespace oop_challange
         XML
     }
 }
-
