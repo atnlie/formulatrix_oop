@@ -3,9 +3,9 @@
 namespace oop_challange
 {
 	public enum EnumFileFormat
-	{
-		int JSON = 1,
-		XML
-	}
+    {
+        JSON = 1,
+        XML
+    }
 }
 
