@@ -24,7 +24,7 @@ namespace oop_challange
             Console.WriteLine("Retrieved XML item: " + repositoryManager.Retrieve("xmlI2"));
 
             // Retrieve item type
-            Console.WriteLine("Type of jsonItem: " + repositoryManager.GetType("json1"));
+            Console.WriteLine("Type of json1: " + repositoryManager.GetType("json1"));
             Console.WriteLine("Type of xmlItem: " + repositoryManager.GetType("xml1"));
 
             // Deregister an item
@@ -32,7 +32,9 @@ namespace oop_challange
             repositoryManager.Deregister("json1");
 
             Console.WriteLine("Retrieved JSON json1: " + repositoryManager.Retrieve("json1"));
-            Console.WriteLine("Retrieved Json json2: " + repositoryManager.Retrieve("json2"));
+            Console.WriteLine("Retrieved JSON json2: " + repositoryManager.Retrieve("json2"));
+            Console.WriteLine("Retrieved XML xml1: " + repositoryManager.Retrieve("xml1"));
+            Console.WriteLine("Retrieved XML xml2: " + repositoryManager.Retrieve("xml2"));
         }
     }
 }
