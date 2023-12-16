@@ -11,10 +11,10 @@ namespace oop_challange
             repositoryManager.Initialize();
 
             // Register items
-            repositoryManager.Register("json1", "{ 'name': 'Anton', 'age': 30 }", 1);
-            repositoryManager.Register("xml1", "<person><name>Atnlie</name><age>21</age></person>", 2);
-            repositoryManager.Register("json2", "{ 'name': 'Budi', 'age': 35 }", 1);
-            repositoryManager.Register("xml2", "<person><name>Budilie</name><age>41</age></person>", 2);
+            repositoryManager.Register("json1", "{ 'name': 'Anton', 'age': 30 }", (int) EnumFileFormat.JSON) ;
+            repositoryManager.Register("xml1", "<person><name>Atnlie</name><age>21</age></person>", (int) EnumFileFormat.XML);
+            repositoryManager.Register("json2", "{ 'name': 'Budi', 'age': 35 }", (int)EnumFileFormat.JSON);
+            repositoryManager.Register("xml2", "<person><name>Budilie</name><age>41</age></person>", (int)EnumFileFormat.XML);
 
             // Retrieve item
             Console.WriteLine("Retrieved JSON item: " + repositoryManager.Retrieve("json1"));
