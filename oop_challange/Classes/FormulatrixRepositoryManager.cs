@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace oop_challange
+namespace Oop_Challange
 {
 	public class FormulatrixRepositoryManager
 	{

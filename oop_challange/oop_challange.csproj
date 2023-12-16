@@ -10,9 +10,14 @@
   <ItemGroup>
     <None Remove="Classes\" />
     <None Remove="Interfaces\" />
+    <None Remove="Enums\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SQLite" Version="3.13.0" />
   </ItemGroup>
 </Project>
