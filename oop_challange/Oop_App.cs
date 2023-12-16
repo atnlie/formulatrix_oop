@@ -25,7 +25,7 @@ namespace oop_challange
 
             // Retrieve item type
             Console.WriteLine("Type of json1: " + repositoryManager.GetType("json1"));
-            Console.WriteLine("Type of xmlItem: " + repositoryManager.GetType("xml1"));
+            Console.WriteLine("Type of xml1: " + repositoryManager.GetType("xml1"));
 
             // Deregister an item
             repositoryManager.Deregister("json1");
