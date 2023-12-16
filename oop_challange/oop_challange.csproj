@@ -5,14 +5,20 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>7b5fb4cd-27ef-4db0-a1bd-6bbe527cfd09</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Classes\" />
     <None Remove="Enums\" />
+    <None Remove="database\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
     <Folder Include="Enums\" />
+    <Folder Include="database\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
   </ItemGroup>
 </Project>
